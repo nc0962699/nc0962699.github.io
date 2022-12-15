@@ -2,6 +2,7 @@
     outline: 1px solid rgb(33, 37, 41);
 }
 
+/*Home Content*/
 .introduction{
     display: flex;
     flex-direction: row;
@@ -20,6 +21,38 @@
     flex-direction: row;
     justify-content: space-around;
 }
+/*Portfolio Content*/
+.experience-images img{
+    width: 20em;
+}
+.experience-images div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.experience-images div h2{
+    margin: auto;
+}
+.experience-images{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+@media (max-width:1150px){
+    .experience-images{
+        display:flex;
+        flex-direction:column;
+    }
+    .experience-images div{
+        margin-top: 20px;
+    }
+}
+/*Footer*/
 #footer{
     display: flex;
     flex-direction: column;
